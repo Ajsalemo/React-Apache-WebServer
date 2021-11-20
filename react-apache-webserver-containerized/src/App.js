@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import httpdLogo from "./images/httpd.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React-Apache-Webserver-Containerized
-        </p>
+        <img src={httpdLogo} className="App-logo" alt="logo" />
+        <p>React-Apache-Webserver-Containerized</p>
       </header>
     </div>
   );
