@@ -10,4 +10,4 @@ if [ -f "$FILE" ]; then
     cp /home/site/wwwroot/apache2.conf /etc/apache2/apache2.conf
 fi
 
-/usr/sbin/apache2ctl -D FOREGROUND
+# We can avoid executing '/usr/sbin/apache2ctl -D FOREGROUND' explicitly since it'll be ran regardless
